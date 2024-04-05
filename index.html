@@ -10,6 +10,20 @@
 </head>
 
 <body>
+    <form onsubmit='addParticipant(event)'>
+        <fieldset>
+            <legend>Register</legend>
+
+            <div>
+                <input type='text' placeholder='Your name' name='username' required>
+
+                <input type='email' placeholder='Your e-mail' name='email' required>
+
+                <button>Check-in</button>
+            </div>
+        </fieldset>
+    </form>
+
     <table width='100%'>
         <thead style='text-align: left;'>
             <tr>
@@ -20,12 +34,14 @@
         </thead>
 
         <tbody>
-            
+
         </tbody>
     </table>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script> <!-- this imports the dayjs library -->
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script> <!-- this imports the relativeTime plugin -->
 <script>dayjs.extend(window.dayjs_plugin_relativeTime)</script> <!-- this activates the relativeTime plugin -->
 <script src="script.js"></script>
+
 </html>
