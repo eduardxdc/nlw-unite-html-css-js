@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo NLW Expert - Rocketseat" src=".github/logo.png" width="200px" />
+  <img alt="Logo NLW Expert - Rocketseat" src=".github/logoEvent.png" width="200px" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track.
 <br>
 
 <p align="center">
-  <img alt="Project preview." src=".github/preview.png" width="60%">
+  <img alt="Project preview." src=".github/previewApp.png" width="60%">
 </p>
 
 
