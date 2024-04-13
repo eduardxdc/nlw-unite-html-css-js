@@ -1,28 +1,28 @@
-<p align="center">
-  <img alt="Logo NLW Expert - Rocketseat" src=".github/logoEvent.png" width="200px" />
+<p align='center'>
+  <img alt='Logo NLW Expert - Rocketseat' src='./assets/images/logo-event.png' width='200px' />
 </p>
 
-<p align="center">
+<p align='center'>
 Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track.
 </p>
 
-<p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="LICENSE">License</a>
+<p align='center'>
+  <a href='#technologies'>Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href='#project'>Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href='LICENSE'>License</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=F48F56&labelColor=00292E">
+<p align='center'>
+  <img alt='License' src='https://img.shields.io/static/v1?label=license&message=MIT&color=F48F56&labelColor=00292E'>
 </p>
 
 <br>
 
-<p align="center">
-  <img alt="Project preview." src=".github/previewApp.png" width="60%">
+<p align='center'>
+  <img alt='Project preview.' src='./assets/images/preview-app.png' width='60%'>
 </p>
 
-## 🚀 Technologies
+## Technologies
 
 The project was developed with the following technologies:
 
