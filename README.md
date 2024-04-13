@@ -19,7 +19,7 @@ Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track.
 <br>
 
 <p align='center'>
-  <img alt='Project preview.' src='./assets/images/preview-app.png' width='60%'>
+  <img alt='Project preview.' src='./assets/images/preview-app.svg' width='60%'>
 </p>
 
 ## Technologies
