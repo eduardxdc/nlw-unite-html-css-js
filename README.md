@@ -22,7 +22,6 @@ Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track.
   <img alt="Project preview." src=".github/previewApp.png" width="60%">
 </p>
 
-
 ## 🚀 Technologies
 
 The project was developed with the following technologies:

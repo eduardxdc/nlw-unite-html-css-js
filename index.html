@@ -1,48 +1,89 @@
 <!DOCTYPE html>
-<html lang='en'>
-
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='author' content='@eduardxdc'>
-    <meta name='description' content='Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track.'>
-    <link href='style.css' rel='stylesheet'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="@eduardxdc" />
+    <meta
+      name="description"
+      content="Application developed in RocketSeat NLW Unite in the HTML+CSS+JS track."
+    />
+    <meta name="keywords" content="NLW, RocketSeat, Unite, HTML, CSS, JS" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon-nlw.svg"
+      type="image/svg+xml"
+    />
     <title>NLW UNITE | CHECK-IN</title>
-</head>
+  </head>
+  1,1 Top
+  <body>
+    <div class="container">
+      <header>
+        <img src="./assets/images/icon.svg" alt="icon" />
+      </header>
 
-<body>
-    <form onsubmit='addParticipant(event)'>
+      <form onsubmit="addParticipant(event)">
         <fieldset>
-            <legend>Register</legend>
+          <legend>Register</legend>
 
-            <div>
-                <input type='text' placeholder='Your name' name='username' required>
-
-                <input type='email' placeholder='Your e-mail' name='email' required>
-
-                <button>Check-in</button>
+          <div>
+            <div class="input-wrapper">
+              <img
+                src="./assets/images/circle-user-round.svg"
+                alt="circle-user"
+              />
+              <input
+                type="text"
+                placeholder="Your name"
+                name="username"
+                required
+              />
             </div>
-        </fieldset>
-    </form>
 
-    <table width='100%'>
-        <thead style='text-align: left;'>
-            <tr>
+            <div class="input-wrapper">
+              <img src="./assets/images/at-sign.svg" alt="at-sign" />
+              <input
+                type="email"
+                placeholder="Your e-mail"
+                name="email"
+                required
+              />
+            </div>
+
+            <button>CHECK-IN</button>
+          </div>
+        </fieldset>
+      </form>
+
+      <section class="participant-list">
+        <h2>Participants</h2>
+
+        <div>
+          <table width="100%">
+            <thead style="text-align: left">
+              <tr>
                 <th>Participant</th>
                 <th>Date of registration</th>
                 <th>Check-in date</th>
-            </tr>
-        </thead>
+              </tr>
+            </thead>
 
-        <tbody>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
 
-        </tbody>
-    </table>
-</body>
-
-<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script> <!-- this imports the dayjs library -->
-<script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script> <!-- this imports the relativeTime plugin -->
-<script>dayjs.extend(window.dayjs_plugin_relativeTime)</script> <!-- this activates the relativeTime plugin -->
-<script src="script.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <!-- this imports the dayjs library -->
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+  <!-- this imports the relativeTime plugin -->
+  <script>
+    dayjs.extend(window.dayjs_plugin_relativeTime);
+  </script>
+  <!-- this activates the relativeTime plugin -->
+  <script src="./assets/js/script.js"></script>
 </html>
